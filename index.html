@@ -67,7 +67,8 @@
 </div>
 </div>
 <section class="md:mt-8 text-white z-10">
-    <!-- banner -->
+   <section class="relative">
+     <!-- banner -->
     <div class="relative">
         <div class="">
             <div class="carousel w-full md:rounded-lg">
@@ -141,33 +142,185 @@
     </section>
 
  <!-- banner footer  -->
-    <section class="-mt-20 hidden lg:flex items-center z-20">
-        <div class="flex justify-around bg-white px-16 py-10 mx-auto">
+    <section class="hidden lg:flex z-20">
+        <div class="flex justify-around gap-8 rounded-lg shadow-xl bg-white px-16 py-5 mx-auto">
             <div class="text-center">
-                <img src="images/fruit1.png" alt="">
+                <img class="w-10/12" src="images/fruit1.png" alt="">
                 <p>Grapes</p>
             </div>
             <div class="text-center">
-                <img src="images/fruit2.png" alt="">
+                <img class="w-10/12" src="images/fruit2.png" alt="">
                 <p>Orange</p>
             </div>
             <div class="text-center">
-                <img src="images/fruit3.png" alt="">
+                <img class="w-10/12" src="images/fruit3.png" alt="">
                 <p>Mango</p>
             </div>
             <div class="text-center">
-                <img src="images/fruit4.png" alt="">
+                <img class="w-10/12" src="images/fruit4.png" alt="">
                 <p>Stawberry</p>
             </div>
             <div class="text-center">
-                <img src="images/fruit5.png" alt="">
+                <img class="w-10/12" src="images/fruit5.png" alt="">
                 <p>Pomegranate</p>
             </div>
         </div>
 
     </section>
+   </section>
     </header>
-    <main class="container mx-auto"></main>
+    <main class="container mx-auto lg:my-20">
+        <section class="space-y-10">
+                   <!-- deal of the day -->
+        <section class="flex flex-col lg:flex-row items-center justify-between px-5 lg:px-1">
+            <div class="text-center lg:text-left my-10 lg:my-0 space-y-5">
+                <h2 class="text-4xl font-semibold">Deal of the day</h2>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <!-- counter -->
+            <div class="mx-auto lg:mx-0" >
+                <div class="flex gap-5 items-center">
+  <div class="flex flex-col text-left">
+    <span class="items-center flex gap-5 countdown font-bold text-4xl">
+      <span style="--value:15;"></span>
+      <img class="h-5" src="images/dots (1).png" alt="">
+    </span>
+    Days
+  </div> 
+  
+  <div class="flex flex-col text-left">
+    <span class="items-center flex gap-5 countdown font-bold text-4xl">
+      <span style="--value:10;"></span>
+      <img class="h-5" src="images/dots (1).png" alt="">
+    </span>
+    Hours
+  </div> 
+  
+  <div class="flex flex-col text-left">
+    <span class="items-center flex gap-5 countdown font-bold text-4xl">
+      <span style="--value:24;"></span>
+      <img class="h-5" src="images/dots (1).png" alt="">
+    </span>
+    Minutes
+  </div> 
+  
+  <div class="flex flex-col text-center">
+    <span class="countdown font-bold text-4xl">
+      <span style="--value:57;"></span>
+    </span>
+    Seconds
+  </div>
+</div>
+            </div>
+        </section>
+        <!-- deal of the day cards  -->
+        <section>
+            <div class="flex flex-col lg:flex-row gap-5 items-center">
+                <!-- card 1 -->
+                <div class="card w-96 bg-base-100 border rounded-md">
+  <figure class="px-10 pt-10">
+    <img src="images/fruit6.png" alt="fruits" class="rounded-xl" />
+  </figure>
+  <div class="" >
+    <div class="space-y-4 mt-8 mx-12">
+        <h2 class="text-2xl text-center">12.90$ - 18.85$</h2>
+    <hr>
+    </div>
+    <div class="card-body items-center text-center -mt-3 space-y-5">
+    <p>Apples</p>
+    <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+</div>
+    <div class="card-actions">
+      <button class="text-fruit-button">Buy Now</button>
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- card 2 -->
+                <div class="card w-96 bg-base-100 border rounded-md">
+  <figure class="px-10 pt-10">
+    <img src="images/fruit7.png" alt="fruits" class="rounded-xl" />
+  </figure>
+  <div class="" >
+    <div class="space-y-4 mt-8 mx-12">
+        <h2 class="text-2xl text-center">12.90$ - 18.85$</h2>
+    <hr>
+    </div>
+    <div class="card-body items-center text-center -mt-3 space-y-5">
+    <p>Orange</p>
+    <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+</div>
+    <div class="card-actions">
+      <button class="text-fruit-button">Buy Now</button>
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- card 3 -->
+                <div class="card w-96 bg-base-100 border rounded-md">
+  <figure class="px-10 pt-10">
+    <img src="images/fruit8.png" alt="fruits" class="rounded-xl" />
+  </figure>
+  <div class="" >
+    <div class="space-y-4 mt-8 mx-12">
+        <h2 class="text-2xl text-center">12.90$ - 18.85$</h2>
+    <hr>
+    </div>
+    <div class="card-body items-center text-center -mt-3 space-y-5">
+    <p>Dragon</p>
+    <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+</div>
+    <div class="card-actions">
+      <button class="text-fruit-button">Buy Now</button>
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- card 4 -->
+                <div class="card w-96 bg-base-100 border rounded-md">
+  <figure class="px-10 pt-10">
+    <img src="images/fruit9.png" alt="fruits" class="rounded-xl" />
+  </figure>
+  <div class="" >
+    <div class="space-y-4 mt-8 mx-12">
+        <h2 class="text-2xl text-center">12.90$ - 18.85$</h2>
+    <hr>
+    </div>
+    <div class="card-body items-center text-center -mt-3 space-y-5">
+    <p>Banana</p>
+    <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-button" />
+</div>
+    <div class="card-actions">
+      <button class="text-fruit-button">Buy Now</button>
+    </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+        </section>
+ 
+    </main>
     <footer></footer>
 </body>
 </html>
